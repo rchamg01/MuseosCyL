@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="MuseosCyL">
+    <entity name="Museo" representedClassName="Museo" syncable="YES">
+        <attribute name="directorio" optional="YES" attributeType="String"/>
+        <attribute name="enlace" optional="YES" attributeType="String"/>
+        <attribute name="horario" optional="YES" attributeType="String"/>
+        <attribute name="informacion" optional="YES" attributeType="String"/>
+        <attribute name="localidad" optional="YES" attributeType="String"/>
+        <attribute name="nombreEntidad" optional="YES" attributeType="String"/>
+        <attribute name="posicionLat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="posicionLon" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="requisitos" optional="YES" attributeType="String"/>
+        <attribute name="servicios" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Museo" positionX="-63" positionY="-18" width="128" height="193"/>
+    </elements>
+</model>
